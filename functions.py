@@ -1,4 +1,4 @@
-gdef calculate_discount(price, discount_percent):
+def calculate_discount(price, discount_percent):
     discount = discount_percent / 100 #convert percentage to decimal
     if discount >= 0.2:
         final_price = price * (1 - discount)
